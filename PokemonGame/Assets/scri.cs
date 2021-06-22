@@ -24,65 +24,65 @@ public class scri : MonoBehaviour
         Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0f);
         transform.position += movement * 2 * Time.deltaTime;
 
-        if(Input.GetAxis("Vertical") > 0f ) {
-            anim.SetBool("andarfrente",true);
+        if(Input.GetAxis("Vertical") < 0f ) {
+            anim.SetBool("andar_frente",true);
             //transform.eulerAngles = new Vector3 (0f,0f,0f);
         }
 
         if(Input.GetAxis("Vertical") < 0f ) {
-            anim.SetBool("andarfrente",true);
+            anim.SetBool("andar_frente",true);
             //transform.eulerAngles = new Vector3 (0f,180f,0f);
         }
 
         if(Input.GetAxis("Vertical") == 0f ) {
-            anim.SetBool("andarfrente",false);
+            anim.SetBool("andar_frente",false);
         }
 
         ///
         if(Input.GetAxis("Horizontal") > 0f ) {
-            anim.SetBool("andardireita",true);
+            anim.SetBool("andar_direita",true);
             //transform.eulerAngles = new Vector3 (0f,0f,0f);
         }
 
-        if(Input.GetAxis("Horizontal") < 0f ) {
-            anim.SetBool("andardireita",true);
+        if(Input.GetAxis("Horizontal") > 0f ) {
+            anim.SetBool("andar_direita",true);
            // transform.eulerAngles = new Vector3 (0f,180f,0f);
         }
 
 
 
        if(Input.GetAxis("Horizontal") == 0f ) {
-           anim.SetBool("andardireita",false);
+           anim.SetBool("andar_direita",false);
        }
 
         
-       if(Input.GetAxis("Horizontal") > 0f ) {
-          anim.SetBool("andaresquerda",true);
+       if(Input.GetAxis("Horizontal") < 0f ) {
+          anim.SetBool("andar_esquerda",true);
             //transform.eulerAngles = new Vector3 (0f,0f,0f);
         }
 
         if(Input.GetAxis("Horizontal") < 0f ) {
-            anim.SetBool("andaresquerda",true);
+            anim.SetBool("andar_esquerda",true);
             //transform.eulerAngles = new Vector3 (0f,180f,0f);
         }
 
         if(Input.GetAxis("Horizontal") == 0f ) {
-            anim.SetBool("andaresquerda",false);
+            anim.SetBool("andar_esquerda",false);
         }
 
         ///
         if(Input.GetAxis("Vertical") > 0f ) {
-            anim.SetBool("andarbaixo",true);
+            anim.SetBool("andar_costas",true);
             //transform.eulerAngles = new Vector3 (0f,0f,0f);
         }
 
-        if(Input.GetAxis("Vertical") < 0f ) {
-            anim.SetBool("andarbaixo",true);
+        if(Input.GetAxis("Vertical") > 0f ) {
+            anim.SetBool("andar_costas",true);
             //transform.eulerAngles = new Vector3 (0f,0f,0f);
         }
 
         if(Input.GetAxis("Vertical") == 0f ) {
-            anim.SetBool("andarbaixo",false);
+            anim.SetBool("andar_costas",false);
         }
     }
 
