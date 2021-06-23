@@ -29,11 +29,6 @@ public class scri : MonoBehaviour
             //transform.eulerAngles = new Vector3 (0f,0f,0f);
         }
 
-        if(Input.GetAxis("Vertical") < 0f ) {
-            anim.SetBool("andar_frente",true);
-            //transform.eulerAngles = new Vector3 (0f,180f,0f);
-        }
-
         if(Input.GetAxis("Vertical") == 0f ) {
             anim.SetBool("andar_frente",false);
         }
@@ -42,11 +37,6 @@ public class scri : MonoBehaviour
         if(Input.GetAxis("Horizontal") > 0f ) {
             anim.SetBool("andar_direita",true);
             //transform.eulerAngles = new Vector3 (0f,0f,0f);
-        }
-
-        if(Input.GetAxis("Horizontal") > 0f ) {
-            anim.SetBool("andar_direita",true);
-           // transform.eulerAngles = new Vector3 (0f,180f,0f);
         }
 
 
@@ -61,11 +51,6 @@ public class scri : MonoBehaviour
             //transform.eulerAngles = new Vector3 (0f,0f,0f);
         }
 
-        if(Input.GetAxis("Horizontal") < 0f ) {
-            anim.SetBool("andar_esquerda",true);
-            //transform.eulerAngles = new Vector3 (0f,180f,0f);
-        }
-
         if(Input.GetAxis("Horizontal") == 0f ) {
             anim.SetBool("andar_esquerda",false);
         }
@@ -76,10 +61,6 @@ public class scri : MonoBehaviour
             //transform.eulerAngles = new Vector3 (0f,0f,0f);
         }
 
-        if(Input.GetAxis("Vertical") > 0f ) {
-            anim.SetBool("andar_costas",true);
-            //transform.eulerAngles = new Vector3 (0f,0f,0f);
-        }
 
         if(Input.GetAxis("Vertical") == 0f ) {
             anim.SetBool("andar_costas",false);
