@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637599869824067700
-    m_Hash: 2583795662
+      ticks: 637619007588110003
+    m_Hash: 4084016498
   m_LockFileStatus:
     m_FilePath: C:/Users/Bruna/Documents/Unity Projects/Animation_Unity_Pokemon/PokemonGame/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637599869911416949
-    m_Hash: 4259589839
+      ticks: 637619007588119971
+    m_Hash: 3322616664
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -100,6 +100,7 @@ m_PackageAssets:
         - 6.0.1
         - 6.0.3
         - 6.0.4
+        - 7.0.0-pre.2
         compatible:
         - 5.0.5
         - 5.0.6
@@ -291,6 +292,7 @@ m_PackageAssets:
         - 5.0.3
         - 5.0.4
         - 6.0.0-pre.2
+        - 6.0.0-pre.3
         compatible:
         - 4.0.2
         - 4.1.0
@@ -473,6 +475,7 @@ m_PackageAssets:
         - 6.0.0
         - 6.0.1
         - 7.0.0-pre.2
+        - 7.0.0-pre.3
         compatible:
         - 5.1.2
         - 5.1.3
@@ -1277,6 +1280,7 @@ m_PackageAssets:
         - 1.6.0-pre.3
         - 1.6.0-pre.4
         - 1.6.0-pre.5
+        - 1.6.1
         compatible:
         - 1.4.8
         - 1.5.0-pre.2
@@ -1295,6 +1299,7 @@ m_PackageAssets:
         - 1.6.0-pre.3
         - 1.6.0-pre.4
         - 1.6.0-pre.5
+        - 1.6.1
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
@@ -3377,6 +3382,8 @@ m_PackageAssets:
         - 5.0.0-pre.1
         - 5.0.0-pre.2
         - 5.0.0
+        - 6.0.0-pre.2
+        - 6.0.0-pre.3
         compatible:
         - 4.0.2
         - 4.0.3
